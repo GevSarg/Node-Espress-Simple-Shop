@@ -1,0 +1,41 @@
+/* Base Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #00b7ff0f;
+  background-attachment: fixed;
+  color: #333;
+}
+
+a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* General Box Styles */
+
+.text-center {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

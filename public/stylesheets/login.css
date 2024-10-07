@@ -1,0 +1,80 @@
+.container {
+  display: grid;
+  place-items: center;
+  padding: 12px;
+  min-height: calc(100vh - 60px);
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 2px 18px 8px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00b7ff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #00b7ff;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #00b7ff;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #009ddb;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #00b7ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #009ddb;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #00b7ff;
+}
+
+.register-link a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link a:hover {
+  color: #009ddb;
+  text-decoration: underline;
+}

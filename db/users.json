@@ -1,0 +1,23 @@
+[
+  {
+    "fullname": "Gevorg Sargsyan",
+    "email": "gevsarg@gmail.com",
+    "password": "$2b$10$5CtbADpSFsuz/fuQFbV1xudCu2fRoHIjC2W0PpjqIiZT4XpcTQ.S6",
+    "status": "admin",
+    "id": "2546984f-0c38-4875-b0df-34189a444222"
+  },
+  {
+    "fullname": "Armen Karapetyan",
+    "email": "armen89@gmail.com",
+    "password": "$2b$10$KnCqxT8l4hcZs/UPvJbFTuPtIjA5VCh0PHA2SfKKKGOwtLmxLuFcO",
+    "status": "user",
+    "id": "28ae37e1-2a1c-4180-be50-a8b82d93b9e7"
+  },
+  {
+    "fullname": "Anna Vardanyan",
+    "email": "annav@gmail.com",
+    "password": "$2b$10$QSqBHbwXbySEAtQfkBC74OyjrJsCPqAj8NEGmu2zym9uMzntVebK.",
+    "status": "user",
+    "id": "2325b336-9009-4225-a831-a97f25efe4c8"
+  }
+]

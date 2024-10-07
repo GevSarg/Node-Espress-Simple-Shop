@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/cart.css" />
+  </head>
+  <body>
+    <%- include('partials/header.ejs') %>
+    <div class="container">
+      <h1>Your Shopping Cart</h1>
+      <div class="products-container">
+        <% if (cart && cart.length > 0) { %> <% cart.forEach(function(item) { %>
+        <div class="product-card">
+          <div class="img">
+            <img src="<%= item.image %>" alt="<%= item.name %>" />
+          </div>
+          <div class="info">
+            <h2>
+              <span><%= item.brand + ":" %></span>
+              <%= item.name %>
+            </h2>
+            <p><strong>Price:</strong> $<%= item.price.toFixed(2) %></p>
+            <button class="delete-product" id="<%= item.id %>">Remove</button>
+          </div>
+        </div>
+        <% }); %> <% } else { %>
+        <p>Your cart is empty.</p>
+        <% } %>
+      </div>
+      <div class="cart-summary">
+        <p><strong>Total Items:</strong> <%= cart.length %></p>
+        <p>
+          <strong>Total Value:</strong> $<%= cart.reduce((total, item) => total
+          + item.price, 0).toFixed(2) %>
+        </p>
+      </div>
+    </div>
+    <script src="javascripts/delCart.js"></script>
+  </body>
+</html>

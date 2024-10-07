@@ -1,0 +1,23 @@
+[
+  {
+    "id": "7108cc78-4292-47b0-a5c1-b08eb81ec617",
+    "name": "Watch 10",
+    "brand": "Apple",
+    "price": 499,
+    "image": "./images/Apple_watch_10.png"
+  },
+  {
+    "id": "5e5bf25f-c8da-4eb1-b3a3-7388a4685065",
+    "name": "Ultra HD 4K TV",
+    "brand": "Samsung",
+    "price": 1799,
+    "image": "./images/Samsung-ultra-hd-tv.png"
+  },
+  {
+    "id": "4e9b89a3-5b3b-4ed8-8322-1c8d25f50ad4",
+    "name": "Bluetooth Headphones",
+    "brand": "Beats",
+    "price": 249,
+    "image": "./images/Beats_Headphones.png"
+  }
+]

@@ -1,0 +1,149 @@
+.container {
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.add-product {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.add-product-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-product-btn:hover {
+  background-color: #218838;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  width: 100%;
+  padding: 0;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: auto;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 80%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.info strong {
+  color: #000;
+  font-weight: bold;
+}
+
+.info i {
+  color: #00b7ff;
+  font-style: normal;
+  margin-left: 5px;
+  font-size: 1.25rem;
+}
+
+/* Admin actions styling */
+.admin-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.delete-product {
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.delete-product {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-product:hover {
+  background-color: #c82333;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .products-container {
+    gap: 20px;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .info p {
+    font-size: 0.9rem;
+  }
+
+  .info i {
+    font-size: 1rem;
+  }
+}

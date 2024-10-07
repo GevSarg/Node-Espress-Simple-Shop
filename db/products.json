@@ -1,0 +1,44 @@
+[
+  {
+    "id": "d92bcbbd-0aeb-414f-8a0f-4f9d07ff5d64",
+    "name": "Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "price": 1299,
+    "image": "./images/Samsung_S23.png"
+  },
+  {
+    "id": "5e5bf25f-c8da-4eb1-b3a3-7388a4685065",
+    "name": "Ultra HD 4K TV",
+    "brand": "Samsung",
+    "price": 1799,
+    "image": "./images/Samsung-ultra-hd-tv.png"
+  },
+  {
+    "id": "4e9b89a3-5b3b-4ed8-8322-1c8d25f50ad4",
+    "name": "Bluetooth Headphones",
+    "brand": "Beats",
+    "price": 249,
+    "image": "./images/Beats_Headphones.png"
+  },
+  {
+    "id": "9c7f54f2-f74c-4fb8-a8b5-fde6269fb343",
+    "name": "G16",
+    "brand": "Asus",
+    "price": 1999,
+    "image": "./images/Asus_G16.png"
+  },
+  {
+    "id": "7108cc78-4292-47b0-a5c1-b08eb81ec617",
+    "name": "Watch 10",
+    "brand": "Apple",
+    "price": 499,
+    "image": "./images/Apple_watch_10.png"
+  },
+  {
+    "id": "3830f301-1979-4b4b-8e0f-6fd3c9e2b4c8",
+    "name": "Tablet A9",
+    "brand": "Samsung",
+    "price": 699,
+    "image": "./images/Samsung_Tab_A9.png"
+  }
+]

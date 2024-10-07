@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/home.css" />
+  </head>
+  <body>
+    <%- include('partials/header.ejs') %>
+    <div class="container">
+      <h1>Products</h1>
+      <div class="products-container">
+        <% products.forEach(function(product) { %>
+        <div class="product-card">
+          <div class="img">
+            <img src="<%= product.image %>" alt="<%= product.name %>" />
+          </div>
+          <div class="info">
+            <p><strong>Name:</strong> <%= product.name %></p>
+            <p><strong>Brand:</strong> <%= product.brand %></p>
+            <p><strong>Price:</strong><i>$<%= product.price %></i></p>
+          </div>
+          <button class="add-cart" id="<%= product.id %>">Add to Cart</button>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+  </body>
+  <script src="javascripts/addCart.js"></script>
+</html>
